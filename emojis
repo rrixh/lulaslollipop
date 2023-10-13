@@ -1,4 +1,4 @@
-local emojis = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Aidez/emojiscopy/master/main", true))
+local emojis = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/rrixh/emojiskopy/main/emoji_lulaslollipop", true))
 local chatbar = nil
 repeat wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
 for i,v in pairs(game.Players.LocalPlayer.PlayerGui:GetDescendants()) do
