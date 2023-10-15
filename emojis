@@ -1,4 +1,4 @@
-local emojis = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/Aidez/emojiscopy/master/main", true))
+local emojis = game:GetService("HttpService"):JSONDecode(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/rrixh/emojiskopy/main/emoji_lulaslollipop",true))()", true))
 local chatbar = nil
 local function emojiparse(msg) -- parse is a cool word
     local colons = {}
